@@ -1,0 +1,21 @@
+you want an algorithm that takes up less memory slots
+
+if you declare a variable and assign value to it, that value is what stored in the memory slot.
+so that specific memory slot is not free anymore.
+
+back to back memory slots.
+you need back to back contigous memory slots.
+
+a value let's say 1 gets converted into its binary form / bits form. base 2 system
+
+1 memory slot can hold 8 bits. 8 bits is called byte
+so when you store data in a memory slot you actually store a byte.
+
+fixed width integer: it will always take up the number of bits divide by 8 in the memory slot.
+
+cells or slots number are referenced as memory addresses and they are also binary based digits.
+you can store other memory address to another slot as a pointer to that original memory slot.
+
+hash tables
+a   table is a key value store. a datastructure where you are able to store key and value pairs.
+insertion, deletion and searching are all constant time operation 0(1)

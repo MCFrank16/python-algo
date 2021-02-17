@@ -44,8 +44,7 @@ class Node:
             self.right.PrintTree()
             
 
-
-root = Node(12)
+root = Node(12)  
 root.insert(6)
 root.insert(14)
 root.insert(3)
